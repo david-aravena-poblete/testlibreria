@@ -1,0 +1,61 @@
+.grid {
+  display: grid;
+
+  grid-template-columns: var(--grid-columns);
+  grid-template-rows: var(--grid-rows);
+
+  gap: var(--grid-gap);
+
+  align-items: var(--grid-align-items);
+  justify-items: var(--grid-justify-items);
+
+  width: 100%;
+  height: var(--grid-height);
+
+  min-width: 0;
+  min-height: 0;
+
+  box-sizing: border-box;
+}
+
+/* Móvil */
+@media (max-width: 600px) {
+  .responsive {
+    grid-template-columns:
+      var(--grid-columns-mobile, var(--grid-columns));
+
+    grid-template-rows:
+      var(--grid-rows-mobile, var(--grid-rows));
+
+    gap:
+      var(--grid-gap-mobile, var(--grid-gap));
+  }
+}
+
+/* Tablet */
+@media (min-width: 601px) and (max-width: 900px) {
+  .responsive {
+    grid-template-columns:
+      var(--grid-columns-tablet, var(--grid-columns));
+
+    grid-template-rows:
+      var(--grid-rows-tablet, var(--grid-rows));
+
+    gap:
+      var(--grid-gap-tablet, var(--grid-gap));
+  }
+}
+
+/* Escritorio */
+@media (min-width: 901px) {
+  .responsive {
+    grid-template-columns:
+      var(--grid-columns-desktop, var(--grid-columns));
+
+    grid-template-rows:
+      var(--grid-rows-desktop, var(--grid-rows));
+
+    gap:
+      var(--grid-gap-desktop, var(--grid-gap));
+  }
+}

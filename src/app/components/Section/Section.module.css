@@ -1,0 +1,9 @@
+.section {
+  width: 100%;
+  height: var(--section-height);
+
+  min-width: 0;
+  min-height: 0;
+
+  box-sizing: border-box;
+}

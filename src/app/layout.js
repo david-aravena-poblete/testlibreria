@@ -1,9 +1,8 @@
-import "@tefi/design-system/styles.css";
 import "./globals.css";
 
 export const metadata = {
-  title: "Test Librería",
-  description: "Sandbox para validar el Design System",
+  title: "Abecedario",
+  description: "Tarjetas educativas del abecedario",
 };
 
 export default function RootLayout({ children }) {

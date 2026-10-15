@@ -1,0 +1,42 @@
+/* ========================================
+   PANTALLA
+======================================== */
+
+.page {
+  width: 100%;
+  min-height: 100vh;
+  min-height: 100dvh;
+
+  box-sizing: border-box;
+  padding: var(--spacing-lg);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ========================================
+   GRID DE CARDS
+======================================== */
+
+.cardsGrid {
+  width: 100%;
+}
+
+/* ========================================
+   BOTÓN
+======================================== */
+
+.buttonContainer {
+  width: 100%;
+}
+
+/* ========================================
+   CELULARES
+======================================== */
+
+@media (max-width: 600px) {
+  .page {
+    padding: var(--spacing-sm);
+  }
+}

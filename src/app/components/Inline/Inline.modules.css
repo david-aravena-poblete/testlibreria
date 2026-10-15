@@ -1,0 +1,18 @@
+.inline {
+    display: flex;
+    flex-direction: row;
+  
+    gap: var(--inline-gap);
+  
+    align-items: var(--inline-align);
+    justify-content: var(--inline-justify);
+  
+    min-width: 0;
+    min-height: 0;
+  
+    box-sizing: border-box;
+  }
+  
+  .wrap {
+    flex-wrap: wrap;
+  }

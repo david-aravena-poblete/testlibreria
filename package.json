@@ -8,9 +8,13 @@
     "start": "next start"
   },
   "dependencies": {
-    "@tefi/design-system": "^0.4.4",
     "next": "16.2.4",
     "react": "^19.2.6",
     "react-dom": "^19.2.6"
+  },
+  "devDependencies": {
+    "@types/node": "25.9.2",
+    "@types/react": "19.2.17",
+    "typescript": "6.0.3"
   }
 }
